@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+button {
+  width: 100%;
+  margin: 5px 0px;
+  border: 0px;
+  padding: 5px 0px;
+  cursor: pointer;
+}
+
+.button-link{
+  text-decoration: none;
+  color: black;
+}
+
+/* Nav Bar */
+
+.test-flex-grow{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.test-flex-grow h3 {
+  flex-grow: 1;
+}
+
+.test-flex-grow h5 {
+  margin: auto 20px;
+}
+
+/* Account options */
+
+.account-options-container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: gray;
+  padding: 10px 10px;
+}
+
+.account-option-button:first-of-type {
+  margin-top: 0px;
+}
+
+/* Register Form */
+
+.register-container {
+  width: 400px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: gray;
+  padding: 10px 10px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px;
+}
+
+.form-field:first-of-type{
+  margin-top: 0px;
+}
+
+.form-field input {
+  margin-top: 5px;
+  border: 1px solid;
+  padding: 5px 5px;
+}
+
+#register-button {
+  width: 100%;
+}

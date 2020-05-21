@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+button {
+  width: 100%;
+  margin: 5px 0px;
+  border: 0px;
+  padding: 5px 0px;
+  cursor: pointer;
+}
+
+.button-link {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
