@@ -124,20 +124,8 @@ router.get("/logout", (req, res) => {
   });
 });
 
-// todo add authentification check before getting account info
-
 // Account info
 router.get("/account", ensureAuthenticated, (req, res) => {
-  console.log(req.session);
-  // console.log(req.session.passport.user);
-
-  // if (!req.isAuthenticated()) {
-  //   return res.status(401).json({
-  //     authorized: false,
-  //     userInfo: null
-  //   });
-  // }
-
   const userId = req.session.passport.user;
 
   User.findById(userId)

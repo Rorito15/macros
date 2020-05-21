@@ -53,7 +53,7 @@ app.use(
 );
 
 // Passport Config
-require("./config/passport")(passport);
+require("./utilities/passport")(passport);
 
 // Passport middleware (must be after express session middleware)
 app.use(passport.initialize());
@@ -66,7 +66,6 @@ app.use("/dashboard", require("./routes/dashboard"));
 
 // Static Routes (images, CSS files, JS files, static web pages)
 app.use("/static", express.static(path.join(__dirname, "/public"))); // Anything in the 'public' directory
-app.use("/static", express.static("/public")); // Anything in the 'public' directory
 
 // Port
 const PORT = process.env.PORT || 8080; // Whatever the port is if we deply or 5000 if running locally
