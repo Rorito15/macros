@@ -1,3 +1,3 @@
 module.exports = {
-  MongoURI: "mongodb://localhost/authenticate"
+  MongoURI: "mongodb://localhost/macros"
 }
