@@ -34,7 +34,7 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "minimist": ">=0.2.1",
-    "nodemon": "^2.0.3",
+    "nodemon": "^2.0.20",
     "prettier": "^1.18.2",
     "webpack": "^4.16.1",
     "webpack-cli": "^3.0.8",
@@ -47,7 +47,7 @@
     "concurrently": "^3.5.1",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
-    "json-server": "^0.16.1",
+    "json-server": "^0.17.1",
     "mongoose": "^5.9.13",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0"
